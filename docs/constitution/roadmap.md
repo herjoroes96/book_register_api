@@ -45,7 +45,7 @@ The Laravel 12.70.1 application is scaffolded, configured, and migrated. `000-se
 
 # Current objective
 
-Complete `006-delivery-documentation` TASK-004 and TASK-005 one task at a time.
+Complete `006-delivery-documentation` TASK-005 and close the assessment.
 
 ---
 
@@ -253,8 +253,8 @@ Rule:
 
 Ideally, only one main feature should be in development at a time.
 
-`006-delivery-documentation` is in progress: TASK-001 through TASK-003 are complete and TASK-004
-and TASK-005 remain.
+`006-delivery-documentation` is in progress: TASK-001 through TASK-004 are complete and TASK-005
+remains.
 
 Other future entries:
 
@@ -699,3 +699,4 @@ Completed
 | 2026-10-26 | `006-delivery-documentation` TASK-001 completed: delivery narrative added. | The README now explains the AI Engineer thesis and delivery method. |
 | 2026-10-26 | `006-delivery-documentation` TASK-002 completed: technical delivery sections consolidated. | The README now includes architecture, evidence, tradeoffs, and scaling. |
 | 2026-10-26 | `006-delivery-documentation` TASK-003 completed: repository published. | The delivery is available at the configured GitHub remote. |
+| 2026-10-26 | `006-delivery-documentation` TASK-004 completed: clean clone verified. | Setup, tests, health, and CRUD work from the public repository. |

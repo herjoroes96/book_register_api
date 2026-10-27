@@ -92,7 +92,7 @@ Never start a task before its dependencies are complete.
 
 ### TASK-004 · Verify the published delivery from a clean clone
 
-- **Status:** [ ] Pending
+- **Status:** [x] Completed
 - **Description:** Clone the published repository into a temporary directory and follow the README
   exactly. Run the setup, tests, health check, and authenticated CRUD smoke flow. Confirm the
   SQLite file is created locally and remains untracked.
@@ -101,6 +101,11 @@ Never start a task before its dependencies are complete.
 - **Validation:** Composer dependencies install; `composer setup` succeeds; `php artisan test`
   passes; `GET /api/v1/health` returns `200`; login → create → list → update → delete → logout works;
   the cloned repository contains no local database or secrets.
+- **Completion:** 2026-10-26 — cloned the published repo, ran `composer setup`, and verified the
+  full flow. The first clone exposed a missing `tests/Unit` directory in Git; added
+  `tests/Unit/.gitkeep` (commit `2641424`), pushed, and repeated from a fresh clone. Final clone:
+  79 tests / 723 assertions, health `200`, login/create/list/detail/update/delete/logout all
+  correct, deleted detail `404`, clean Git status, no tracked `.env` or SQLite.
 
 ### TASK-005 · Run the final gate and close the feature
 

@@ -46,8 +46,8 @@ The Laravel 12.70.1 application is scaffolded, configured, migrated, documented,
 `000-setup-base`, `001-auth-minimum`, and `002-books-create-list-show` are complete.
 `003-books-update-delete` is complete. The book CRUD API is implemented, documented, and verified;
 `004-api-contract-hardening` is complete. The JSON error envelope, safe 500 responses, and API rate
-limits are implemented and documented. `005-auth-dummy-hash-config` is complete. `006-delivery-documentation` TASK-001 through TASK-003
-are complete; TASK-004 is next.
+limits are implemented and documented. `005-auth-dummy-hash-config` is complete. `006-delivery-documentation` TASK-001 through TASK-004
+are complete; TASK-005 is next.
 
 ---
 
@@ -55,14 +55,14 @@ are complete; TASK-004 is next.
 
 ## Primary objective
 
-Complete `006-delivery-documentation` one task at a time, starting with TASK-004, while keeping
-lint, tests, and build green.
+Complete `006-delivery-documentation` TASK-005 and the final quality gate while keeping lint,
+tests, and build green.
 
 ---
 
 ## Secondary objectives
 
-* Complete TASK-004 and TASK-005 in order, one task at a time.
+* Complete TASK-005 and close the assessment.
 * Keep tests, validation, ownership isolation, and the JSON error contract mandatory.
 * Keep documentation and code in English.
 * Preserve the proportionate, explainable architecture defined in the constitution.
@@ -292,7 +292,7 @@ Name:
 
 Status:
 
-in progress — TASK-001 through TASK-003 completed; TASK-004 next
+in progress — TASK-001 through TASK-004 completed; TASK-005 next
 
 Reference:
 
@@ -306,8 +306,8 @@ docs/features/006-delivery-documentation/tasks.md
 
 Order:
 
-1. TASK-004 — verify the published delivery from a clean clone.
-2. TASK-005 — run the final gate and close the feature.
+1. TASK-005 — run the final gate and close the feature.
+2. Final GitHub link verification and delivery summary.
 
 ---
 
