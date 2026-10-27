@@ -1,0 +1,12 @@
+{
+  "aipf": "0.4.0",
+  "project": "test_backend_sas",
+  "profile": "full",
+  "mode": "new",
+  "stack": "Laravel, PHP and  SQLite",
+  "agents": [
+    "opencode"
+  ],
+  "docs": "docs",
+  "createdAt": "2026-10-26"
+}

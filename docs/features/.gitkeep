@@ -1,0 +1,7 @@
+# features/
+
+Una carpeta por feature: NNN-nombre/ con spec.md, plan.md y tasks.md.
+Genera cada una con los prompts 03–05 (o copia aipf/templates/feature/*).
+
+Recuerda: cada feature es una rebanada vertical delgada (~5–8 tareas máx.), no un módulo
+completo. Ver "Tamaño y forma de las features" en AGENTS.md.
