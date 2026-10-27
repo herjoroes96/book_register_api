@@ -2,7 +2,7 @@
 
 Reference: `spec.md` · `plan.md`
 
-Feature status: In progress
+Feature status: Completed
 
 > Converted from the approved plan into small, ordered, verifiable steps.
 > **One task format:** `TASK-NNN`. Implement one task at a time (prompt 06).
@@ -109,7 +109,7 @@ Never start a task before its dependencies are complete.
 
 ### TASK-005 · Run the final gate and close the feature
 
-- **Status:** [ ] Pending
+- **Status:** [x] Completed
 - **Description:** Run the full quality gate, update the final delivery state, mark the feature
   implemented, move it to completed, and record the publication and clone verification.
 - **Files / location:** `docs/features/006-delivery-documentation/spec.md`,
@@ -122,6 +122,10 @@ Never start a task before its dependencies are complete.
   `./vendor/bin/pint --test`, `php artisan test`, `php artisan optimize`, and
   `php artisan optimize:clear` pass; the published link and clean-clone result are recorded; all
   feature statuses are consistent.
+- **Completion:** 2026-10-26 — final gate passed (79 tests, 723 assertions; composer validation,
+  audit, Pint, optimize, optimize:clear). The public repository was verified from a fresh clone;
+  local database is clean (`books=0`, `tokens=0`, `users=1`). Closed spec, plan, tasks, roadmap,
+  context, learnings, and known issues.
 
 ---
 
@@ -129,16 +133,16 @@ Never start a task before its dependencies are complete.
 
 Before marking the feature complete:
 
-- [ ] All TASK items are Completed.
-- [ ] The acceptance criteria in `spec.md` are satisfied.
-- [ ] The README is in English and explains the AI Engineer thesis and human control.
-- [ ] AIPF is described as private; `aipf/` is intentionally absent.
-- [ ] The 10% claim is labeled as a conjecture.
-- [ ] The GitHub repository is published and verified from a clean clone.
-- [ ] No secrets, `.env`, SQLite, logs, vendor, or generated dependencies are tracked.
-- [ ] No application code, API contract, schema, or dependency changed.
-- [ ] Lint, tests, and build pass using the commands in `tech-stack.md`.
-- [ ] Known issues and final learnings are recorded.
+- [x] All TASK items are Completed.
+- [x] The acceptance criteria in `spec.md` are satisfied.
+- [x] The README is in English and explains the AI Engineer thesis and human control.
+- [x] AIPF is described as private; `aipf/` is intentionally absent.
+- [x] The 10% claim is labeled as a conjecture.
+- [x] The GitHub repository is published and verified from a clean clone.
+- [x] No secrets, `.env`, SQLite, logs, vendor, or generated dependencies are tracked.
+- [x] No application code, API contract, schema, or dependency changed.
+- [x] Lint, tests, and build pass using the commands in `tech-stack.md`.
+- [x] Known issues and final learnings are recorded.
 
 ---
 

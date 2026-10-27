@@ -13,7 +13,7 @@ docs/features/006-delivery-documentation/spec.md
 Status:
 
 ```text
-approved
+completed
 ```
 
 ---

@@ -46,8 +46,8 @@ The Laravel 12.70.1 application is scaffolded, configured, migrated, documented,
 `000-setup-base`, `001-auth-minimum`, and `002-books-create-list-show` are complete.
 `003-books-update-delete` is complete. The book CRUD API is implemented, documented, and verified;
 `004-api-contract-hardening` is complete. The JSON error envelope, safe 500 responses, and API rate
-limits are implemented and documented. `005-auth-dummy-hash-config` is complete. `006-delivery-documentation` TASK-001 through TASK-004
-are complete; TASK-005 is next.
+limits are implemented and documented. `005-auth-dummy-hash-config` and `006-delivery-documentation` are complete. The assessment is
+delivered, published, and verified from a clean clone.
 
 ---
 
@@ -55,15 +55,14 @@ are complete; TASK-005 is next.
 
 ## Primary objective
 
-Complete `006-delivery-documentation` TASK-005 and the final quality gate while keeping lint,
-tests, and build green.
+Maintain the delivered repository and respond to review questions; no active feature remains.
 
 ---
 
 ## Secondary objectives
 
-* Complete TASK-005 and close the assessment.
-* Keep tests, validation, ownership isolation, and the JSON error contract mandatory.
+* Keep the delivered repository and documentation accurate.
+* Preserve the quality gates and security boundaries for future changes.
 * Keep documentation and code in English.
 * Preserve the proportionate, explainable architecture defined in the constitution.
 
@@ -288,16 +287,16 @@ Proceed with documented assumptions and confirm before delivery. See Q1 and Q2 i
 
 Name:
 
-006-delivery-documentation
+None — assessment delivery complete.
 
 Status:
 
-in progress — TASK-001 through TASK-004 completed; TASK-005 next
+Delivered. Repository published and verified.
 
 Reference:
 
 ```text
-docs/features/006-delivery-documentation/tasks.md
+https://github.com/herjoroes96/book_register_api
 ```
 
 ---
@@ -306,15 +305,14 @@ docs/features/006-delivery-documentation/tasks.md
 
 Order:
 
-1. TASK-005 — run the final gate and close the feature.
-2. Final GitHub link verification and delivery summary.
+1. None. The assessment is ready for review.
 
 ---
 
 # Temporary constraints
 
 * Implement one task at a time from the approved list; do not skip ahead.
-* Do not start `006-delivery-documentation` work until its spec, plan, and tasks are approved.
+* No active feature remains. New work, if any, requires a new approved spec, plan, and tasks.
 * No UI, Docker, or CI/CD work in the current scope.
 * All documentation and code are written in English; working discussions remain in Spanish.
 * Do not edit protected files listed in `docs/constitution/constraints.md`.

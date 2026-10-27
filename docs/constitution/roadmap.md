@@ -45,7 +45,7 @@ The Laravel 12.70.1 application is scaffolded, configured, and migrated. `000-se
 
 # Current objective
 
-Complete `006-delivery-documentation` TASK-005 and close the assessment.
+The assessment delivery is complete; no active feature remains.
 
 ---
 
@@ -215,6 +215,33 @@ Reference:
 docs/features/005-auth-dummy-hash-config/
 ```
 
+## 006 · delivery-documentation
+
+Status:
+
+```text
+Completed
+```
+
+Description:
+
+```text
+English delivery narrative, AI Engineer thesis, private AIPF boundary, honest 10% conjecture,
+architecture/evidence/scaling documentation, GitHub publication, and verified clean-clone setup.
+```
+
+Date:
+
+```text
+2026-10-26
+```
+
+Reference:
+
+```text
+docs/features/006-delivery-documentation/
+```
+
 Format for future entries:
 
 ## NNN · Feature name
@@ -253,8 +280,7 @@ Rule:
 
 Ideally, only one main feature should be in development at a time.
 
-`006-delivery-documentation` is in progress: TASK-001 through TASK-004 are complete and TASK-005
-remains.
+No active feature. `006-delivery-documentation` and the full assessment delivery are complete.
 
 Other future entries:
 
@@ -290,25 +316,7 @@ docs/features/NNN-feature-name/
 
 Planned features, ordered by priority.
 
-## 006 · delivery-documentation
-
-Objective:
-
-```text
-README with setup, demo credentials, assumptions, key decisions, scalability notes, .env.example,
-and a clean-install verification.
-```
-
-Priority:
-
-* High.
-
-Dependencies:
-
-```text
-000 · setup-base; 001 · auth-minimum; 002 · books-create-list-show;
-003 · books-update-delete; 004 · api-contract-hardening; 005 · auth-dummy-hash-config.
-```
+None. All planned features are complete; the assessment is delivered.
 
 ---
 
@@ -700,3 +708,4 @@ Completed
 | 2026-10-26 | `006-delivery-documentation` TASK-002 completed: technical delivery sections consolidated. | The README now includes architecture, evidence, tradeoffs, and scaling. |
 | 2026-10-26 | `006-delivery-documentation` TASK-003 completed: repository published. | The delivery is available at the configured GitHub remote. |
 | 2026-10-26 | `006-delivery-documentation` TASK-004 completed: clean clone verified. | Setup, tests, health, and CRUD work from the public repository. |
+| 2026-10-26 | `006-delivery-documentation` completed: final gate and delivery closed. | The assessment repository is published, documented, and verified. |

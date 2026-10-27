@@ -843,8 +843,10 @@ Ensure the PHP extensions listed in **Requirements** are enabled.
 
 ## Delivery status
 
-The implementation is complete through `005-auth-dummy-hash-config`. The repository also contains
-the six-feature documentation trail and the final delivery material.
+The delivery is complete through `006-delivery-documentation`. The public repository contains the
+full source, tests, migrations, six-feature documentation trail, and final review material. It was
+cloned and verified from a clean checkout, including setup, the full test suite, health, and the
+authenticated CRUD flow.
 
 Source: [github.com/herjoroes96/book_register_api](https://github.com/herjoroes96/book_register_api)  
 Contact: [linkedin.com/in/herjoroes](https://www.linkedin.com/in/herjoroes/)

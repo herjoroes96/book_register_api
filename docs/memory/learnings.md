@@ -288,3 +288,24 @@ driver decision.
 * Prefer behavior assertions that prove the security operation ran.
 
 **Move to knowledge?** Not yet; retain as project-specific configuration hardening.
+
+## 2026-10-26 · 006-delivery-documentation · Final delivery
+
+**Situation:** Closing the assessment with a public README narrative, a Git repository, and a clean-clone verification.
+
+**What happened / what we learned:**
+
+* A clean clone is different from local tests. The first clone failed because the empty `tests/Unit` directory was not tracked; `.gitkeep` fixed it and the remote was re-verified.
+* Publishing before cloning is the right order: it exposes missing files, ignore-rule mistakes, and setup assumptions that local state hides.
+* The README narrative was strongest when it separated the conjecture from the evidence and explained the private AIPF boundary explicitly.
+* The public repository benefits from keeping the process artifacts (`AGENTS.md`, `.opencode/`, feature docs) even when the private kit is not distributed.
+* A final quality gate plus a live CRUD flow gives a defensible answer to "does the delivery actually work?"
+
+**How to apply it next time:**
+
+* Track empty test directories or remove unused suites.
+* Verify the published remote from a fresh clone before sharing the link.
+* State private boundaries and unmeasured claims plainly.
+* Keep one source of truth for setup and API examples.
+
+**Move to knowledge?** Not yet; this is the project's final delivery record.

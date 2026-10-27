@@ -15,7 +15,7 @@ Allowed values:
 Current status:
 
 ```text
-approved
+implemented
 ```
 
 ---
