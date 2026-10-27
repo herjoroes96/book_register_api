@@ -625,6 +625,8 @@ AGENTS.md                     Agent behavior contract used during delivery
 .aipf.json                    AIPF project marker
 .opencode/                    Agent command configuration
 README.md                     This delivery document
+LICENSE                       MIT license
+composer.json                 Dependencies and setup scripts
 app/                          Laravel application
 bootstrap/app.php             Routing, middleware, exception rendering
 routes/api.php                Versioned API routes
@@ -645,6 +647,9 @@ app/
 │   ├── Controllers/Api/V1/AuthController.php
 │   ├── Controllers/Api/V1/BookController.php
 │   ├── Controllers/Api/V1/HealthController.php
+│   ├── Controllers/Controller.php
+│   ├── Middleware/ForceJsonResponse.php
+│   ├── Middleware/ThrottleApiRequests.php
 │   ├── Requests/Auth/LoginRequest.php
 │   ├── Requests/Books/StoreBookRequest.php
 │   ├── Requests/Books/UpdateBookRequest.php
@@ -665,8 +670,10 @@ database/
 └── database.sqlite          (local, ignored)
 
 tests/
+├── Feature/ApiContractTest.php
 ├── Feature/AuthTest.php
 ├── Feature/BookTest.php
+├── Feature/Configuration/AuthDummyHashConfigTest.php
 ├── Feature/HealthCheckTest.php
 ├── Feature/Services/AuthServiceTest.php
 ├── Feature/Services/BookServiceTest.php

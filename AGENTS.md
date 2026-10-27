@@ -1,5 +1,10 @@
 # AGENTS.md
 
+> **Nota sobre AIPF:** AIPF es un framework privado del autor y **no está incluido** en este
+> repositorio. Las referencias a `aipf/` que aparecen más abajo y en documentos históricos apuntan
+> a ese kit privado; su ausencia es intencional. Para acceder a AIPF, contacta al autor por
+> LinkedIn: <https://www.linkedin.com/in/herjoroes/>.
+
 Contrato de comportamiento para cualquier agente de IA que trabaje en este proyecto
 (Claude Code, OpenCode, Codex, Cursor, Gemini CLI, Aider, Cline, Roo…).
 
