@@ -290,6 +290,6 @@ Docker, CI/CD) are out of scope and only added if time allows.
 `AuthController` delegates to `AuthService`. `002-books-create-list-show` is implemented and
 verified. `003-books-update-delete` is complete and documented. `004-api-contract-hardening` is
 complete. `005-auth-dummy-hash-config` is complete. The last feature is
-`006-delivery-documentation`; its spec and plan are approved, TASK-001 and TASK-002 are complete,
-and TASK-003 through TASK-005 remain. **Continue one task at a time and keep the Definition of Done
-green.**
+`006-delivery-documentation`; its spec and plan are approved, TASK-001 through TASK-003 are
+complete, and TASK-004 and TASK-005 remain. **Continue one task at a time and keep the Definition
+of Done green.**
